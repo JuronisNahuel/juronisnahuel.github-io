@@ -1,0 +1,506 @@
+body {
+    margin: 0;
+    padding: 0px;
+    font-family: sans-serif;
+    background-color: #121213;
+    color: #ffffff;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+ 
+    position: relative;
+    height: 80vh;
+    min-height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.redesSociales {
+  display: block;
+  align-items:center;
+  position: fixed;
+  top: 30%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.redesSociales a {
+  margin-right: 0%;
+  display: block;
+}
+
+.redesSociales img {
+  width: auto;
+  height: 30px;
+}
+
+.topbar {
+    position: relative;
+    align-items: center;
+    display: flex;
+    width: auto;
+    min-width: 1096px;
+    height: auto;
+    background-color: #8C8574;
+    padding: 10px 20px;
+    border-bottom: 2px solid #BFBFAC;
+    background-image: url(../Imagenes/coding-1853305_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.topbar img {
+    position: relative;
+    max-width: 100%;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+
+.topbar h1{
+  position: relative;
+  background-color: none;
+    margin: 0;
+    padding: 10px;
+    line-height: 1.5;
+    font-size: 25px;
+    color: #007ACC;
+}
+.topbar p {
+    position: relative;
+    font-family: 'Courier New', monospace;
+    background-color: none;
+    margin: 0;
+    padding: 10px;
+    line-height: 1.5;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+
+.experienciaBoxes {
+  display: flex;
+  max-width: 100%;
+}
+
+.box {
+  border-radius: 5px;
+  width: 25%;
+  height: 25%;
+  margin: 10px;
+  background-size: contain;
+  min-width: 250px;
+  min-height: 250px;
+}
+.boxCrisis {
+  border-radius: 5px;
+  width: 25%;
+  height: 25%;
+  margin: 10px;
+  background-size: contain;
+  min-width: 250px;
+  max-height: 1px;
+}
+
+
+.content p strong{
+  color: #eba857;
+}
+.content {
+     padding: 20px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+h2 {
+  font-family: 'Courier New', monospace;
+    margin-top: 0;
+    color: #007acc;
+}
+
+h3 {
+  font-family: 'Courier New', monospace;
+    margin-top: 0;
+    color: #c586c0;
+}
+h1 {
+    font-family: 'Courier New', monospace;
+    margin-top: 0;
+    color: #4EC9B0;
+}
+
+p {
+    font-family: 'Courier New', monospace;
+    color: #ffffff;
+    
+}
+
+a {
+    color: #E8DAB2;
+}
+
+a:hover {
+    color: #F8F8F2;
+}
+/*botonera común*/
+.botonera {
+  height: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    background-color: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    font-weight: bolder;
+    font-size: auto;
+    text-size-adjust: auto;
+  }
+  
+  .botonera ul {
+    text-align: center;
+    text-size-adjust: auto;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+  }
+  
+  .botonera li {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    font-size: auto;
+    overflow: hidden;
+    margin: 0 10px;
+  }
+  
+  .botonera li a {
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    padding: 10px 15px;
+    color: #ffffff;
+    text-decoration: solid;
+  }
+  
+  .botonera li a:hover {
+    background-color: #eef3ee34;
+    box-shadow: 10 10 10px #eeeeee;
+    border-radius: 20px;
+  }
+  
+  /*botón de subír*/
+  #subir {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  #subir:hover {
+    background-color: #0069d9;
+  }
+  
+
+  @media only screen and (max-width: 600px) {
+      .container {
+          flex-direction: column;
+      }
+      .topbar {
+          min-width: 250px;
+          width: 100%;
+          height: auto;
+          background-image:250px; ;
+      }
+      .content {
+          width: auto;
+          min-width: 250px;
+  
+      }
+      .body {
+        width: auto;
+      }
+      .topbar img {
+        max-width: 25%;
+        border-radius: 50%;
+        display: block;
+        margin: auto;
+      }
+    .topbar h1{
+      background-color: none;
+        margin: 0;
+        padding: 10px;
+        line-height: 1.5;
+        font-size: 25px;
+        color: #007ACC;
+    }
+    .experienciaBoxes {
+      display: block;
+      max-width: 100%;
+    }
+    
+    .box {
+      border-radius: 5px;
+      min-width: 250px;
+      min-height: 250px;
+      margin: 10px;
+      background-size: contain;
+      width: auto;
+    }
+  
+    .botonera{
+      display: none;
+    }
+    .redesSociales img {
+      width: 6rem;
+      height: 1.5rem;
+      
+    }
+
+  }
+  
+  @media only screen and (min-width: 600px){
+    .hamburger{
+      display: none;
+    }
+  
+  }
+
+/* hamburguesa */
+
+.hamburger{
+	position:fixed;
+  background-color:transparent;
+	left:0;
+	top:0;
+	height:30px;
+	width:30px;
+	padding:20px 20px;
+	-webkit-transform:translate3d(0, 0, 0);
+	transform:translate3d(0, 0, 0);
+	-webkit-transition:-webkit-transform 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+	transition:transform 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+	z-index:1002;
+	cursor:pointer;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select:none
+}
+.hamburger.is-active{
+  background-color:none;
+}
+._layer{
+	background:#fcfcfc;
+	margin-bottom:4px;
+	border-radius:2px;
+	width:28px;
+	height:4px;
+	opacity:1;
+	-webkit-transform:translate3d(0, 0, 0);
+	transform:translate3d(0, 0, 0);
+	-webkit-transition:all 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+	transition:all 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+}
+.hamburger:hover .-top{
+	-webkit-transform:translateY(-100%);
+	-ms-transform:translateY(-100%);
+	transform:translateY(-100%);
+}
+.hamburger:hover .-bottom{
+	-webkit-transform:translateY(50%);
+	-ms-transform:translateY(100%);
+	transform:translateY(100%);
+	}
+.hamburger.is-active .-top{
+	-webkit-transform:translateY(200%) rotate(45deg) !important;
+	-ms-transform:translateY(200%) rotate(45deg) !important;
+	transform:translateY(200%) rotate(45deg) !important;
+}
+.hamburger.is-active .-mid{
+	opacity:0;
+}
+.hamburger.is-active .-bottom{
+	-webkit-transform:translateY(-200%) rotate(135deg) !important;
+	-ms-transform:translateY(-200%) rotate(135deg) !important;
+	transform:translateY(-200%) rotate(135deg) !important;
+}
+
+/*menu responsive*/
+.menuppal.is_active{
+  transform: translate3d(0px, 0px, 0px);
+}
+.menuppal{
+   background-color: rgba(7, 7, 7, 0.699);
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    overflow-y: scroll;
+    position: fixed;
+    top: 0;
+    transform: translate3d(0px, -100%, 0px);
+    transition: transform 0.35s cubic-bezier(0.05, 1.04, 0.72, 0.98) 0s;
+    width: 100%;
+    z-index: 1001;
+}
+.menuppal ul{
+  margin:0;padding:0;
+}
+.menuppal ul li { 
+  list-style: none;
+	text-align:center;
+	font-family: 'Courier New', monospace;
+	color:nav-color-text;
+	font-size:1.5rem;
+	line-height:3em;
+	height:3em;
+  color:#4EC9B0;
+	text-transform:none;
+	font-weight:bold;
+}
+.menuppal ul li a{
+  text-decoration:none;
+  color:#4EC9B0;
+}
+.menuppal ul li a:hover{
+  text-decoration:none;
+  color:#333;
+}
+
+
+/*contacto*/
+
+
+.contacto {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #1e1e22a1;
+  border-radius: 10px;
+}
+
+.contacto h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.contacto form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacto label {
+  margin-bottom: 10px;
+}
+
+.contacto input[type="text"],
+.contacto input[type="email"],
+.contacto textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+.contacto button {
+  padding: 10px 20px;
+  background-color: #c586c0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contacto button:hover {
+  background-color: #6f249b;
+}
+
+
+
+/* boton de sujerencia */
+#button-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  margin-top: 0;
+}
+
+#moveable-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px 40px;
+  background-color: #09d6ad;
+  border: none;
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 24px;
+  cursor: pointer;
+  transition: transform 0.5s;
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+}
+
+#moveable-button.hover {
+  animation: move-button 2s forwards;
+}
+
+@keyframes move-button {
+  0% {
+    transform: translate(-50%, -50%);
+  }
+  25% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(100%, 0);
+  }
+  75% {
+    transform: translate(100%, 100%);
+  }
+  100% {
+    transform: translate(0, 100%);
+  }
+}
+
+/*Panal*/
+
+
+#beehive {
+  width: 300px;
+  height: 300px;
+
+ 
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+  
+}
+
+#beehive img {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  transition: all 1s ease-in-out;
+}
